@@ -13,56 +13,53 @@ comments: true
 read_time: false
 ---
 
-
-# Disqus를 사용하여 웹 페이지에 댓글 기능 추가
-
 ※ 본 게시글은 minimal-mistakes-jekyll 테마를 적용한 후 진행하였습니다.
 
-## [Disqus](https://disqus.com) 가입 후 로그인
+## [Disqus](https://disqus.com) 가입 후 로그인  
 
-![disqus0](/img/disqus_0.jpg)
+![disqus0](/img/disqus_0.JPG)
 
 disqus 사이트에 접속하면 귀여운 얼굴(?)들과 함께 GET STARTED라는 버튼이 보인다. 버튼을 눌렀을 때
 
-![disqus0](/img/disqus_1.jpg)
+![disqus0](/img/disqus_1.JPG)
 
 회원가입 화면이 뜬다면 회원가입을, 
 
-![disqus0](/img/disqus_2.jpg)
+![disqus0](/img/disqus_2.JPG)
 
 활용 목적이 뜬다면 'I want to install Disqus on my site'를 클릭한다.
 
 ## 정보 입력 및 플랫폼 선택
 
-![disqus0](/img/disqus_3.jpg)
+![disqus0](/img/disqus_3.JPG)
 
 그 후, 본인의 정보를 입력한다. Website name에는 본인의 github 블로그 주소나 원하는 이름을 입력한다. 나중에 이 이름을 사용해서 적용할 것이기 때문에 기억하도록 한다.
 
 'Create Site'를 클릭했을 때 Plan을 설정하는 화면이 뜬다면 가장 아래의 'Basic Plan'을 선택(Subscribe Now)하면 된다.
 
-![disqus0](/img/disqus_4.jpg)
+![disqus0](/img/disqus_4.JPG)
 
 사용할 플랫폼을 선택한다. 본인의 블로그가 jekyll이라면 'Jekyll'을 선택한다. 
 
-![disqus0](/img/disqus_5.jpg)
+![disqus0](/img/disqus_5.JPG)
 
 어떻게 post에 적용하는지와 관련된 내용이 나오는데 우선은 'Configure' 버튼을 눌러 넘어간다.
 
-![disqus0](/img/disqus_6.jpg)
+![disqus0](/img/disqus_6.JPG)
 
 여기서 Website Name은 이후 'short name'으로 불린다. Website URL에는 본인의 github 블로그 주소를 입력한다.
 
-![disqus0](/img/disqus_7.jpg)
+![disqus0](/img/disqus_7.JPG)
 
 다음을 누르면 이런 화면이 뜨는데 'Balanced'를 클릭하고 'Complete Setup'을 진행한다.
 
 ## 도메인 적용
 
-![disqus0](/img/disqus_8.jpg)
+![disqus0](/img/disqus_8.JPG)
 
 우선, 제대로 정보가 입력되었는지는 [https://본인이-정한-shortname.disqus.com/admin/settings/general/](https://jej0312-github-io.disqus.com/admin/settings/general/)에 접속하여 확인할 수 있다.
 
-![disqus0](/img/disqus_10.jpg)
+![disqus0](/img/disqus_10.JPG)
 
 그 다음에는 왼쪽 옵션 중 Advanced에서 Trusted Domains에 'disqus.com'과 본인의 블로그 주소를 입력한다. 적용 후 "We were unable to load Disqus. If you are a moderator please see our troubleshooting guide."라는 오류가 뜰 경우 이 부분을 제대로 하지 않았을 가능성이 높다.
 
@@ -167,15 +164,15 @@ comments:
 
 ## Google Search Console 도메인 등록
 
-![googlesearch](/img/googlesearch_1.jpg)
+![googlesearch](/img/googlesearch_1.JPG)
 
 이 중 오른쪽의 'URL 접두어'에 github 블로그 주소를 작성하고 계속을 누른다.
 
-![googlesearch](/img/googlesearch_2.jpg)
+![googlesearch](/img/googlesearch_2.JPG)
 
 구글 검색을 허용하기 위해서는 사이트의 소유권 인증을 해야한다. 소유권 확인을 위해 html 파일을 다운로드 하고 root 디렉토리(`_config.yml` 페이지 위치)에 올린 후 push를 한다. 정상적으로 push된 후에 확인 버튼을 눌러 소유권 인증을 마무리한다.
 
-![googlesearch](/img/googlesearch_4.jpg)
+![googlesearch](/img/googlesearch_4.JPG)
 
 위와 같은 이미지가 뜨면 완료된 것이다. (완료까지 몇 십분이 소요될 수도 있으니 기다린다.)
 
@@ -220,13 +217,13 @@ Root 디렉토리에 `sitemap.xml` 파일을 생성하고 다음 내용을 복�
     {% endhighlight %}
 
 
-![sitemap](/img/sitemap_2.jpg)
+![sitemap](/img/sitemap_2.JPG)
 
 터미널에 `bundle exec jekyll serve`을 입력하고 http://127.0.0.1:4000/sitemap.xml이 제대로 출력되는지 확인한다.
 
 제대로 출력이 된다면 다시 Google Search Console에서 등록을 한다.
 
-![googlesearch](/img/googlesearch_5.jpg)
+![googlesearch](/img/googlesearch_5.JPG)
 
 좌측의 sitemaps 탭을 눌러 새 사이트맵을 추가한다. 본인의 블로그 뒤에 'sitemap.xml'을 작성하면 된다.
 
@@ -249,11 +246,11 @@ Sitemap: 본인의-github-블로그-주소/sitemap.xml
 
 게시글에 대해 구글 검색이 가능하도록 하려면 [네이버 서치어드바이저](https://searchadvisor.naver.com/)에 등록해야한다.
 
-![naver](/img/naver_1.jpg)
+![naver](/img/naver_1.JPG)
 
 네이버 서치어드바이저에 접속해서 웹마스터 도구 사용하기를 클릭한다.
 
-![naver](/img/naver_2.jpg)
+![naver](/img/naver_2.JPG)
 
 구글에 소유권을 등록했던 방식과 동일하게, html 파일을 root 디렉토리에 넣고 소유확인을 진행한다.
 
@@ -296,11 +293,11 @@ Sitemap: 본인의-github-블로그-주소/sitemap.xml
     {% endhighlight %}
 
 
-![naver](/img/naver_4.jpg)
+![naver](/img/naver_4.JPG)
 
 요청 탭의 RSS 제출을 통해 feed.xml 주소를 올린다.
 
-![naver](/img/naver_5.jpg)
+![naver](/img/naver_5.JPG)
 
 사이트맵 제출도 진행한다.
 
