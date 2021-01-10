@@ -21,7 +21,7 @@ title_separator          : "&#124;" # 타이틀 사이 구분자 <title>Welcome 
 subtitle                 : "2020~" # 타이틀 아래에 나올 작은 글씨 
 name                     : "전은지" # 맨 하단 이름 찍히는 영역
 description              : "공부하면서 만들어가는 블로그" # Meta 태그에 들어가는 영역 
-url                      : "https://jej0312.github.io/" # GitBlog 호스트 주소
+url                      : "https://jej0312.github.io" # GitBlog 호스트 주소
 baseurl                  : # subPath https://7271kim.github.io/blog라고 하고 싶을 시 "/blog" 라고 적는다.
 repository               : "jej0312/jej0312.github.io" # GitHub username/repo-name  
 teaser                   : # "/assets/images/senior-couple-4723737_640.jpg" # 홈페이지 기본 티져 이미지
