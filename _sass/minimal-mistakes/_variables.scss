@@ -6,16 +6,21 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16 !default;
+$doc-font-size: 13 !default;
+
+
+// Font 변경
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR:wght@500&display=swap');
+
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+// Font 변수에 할당
+$serif       : 'Noto Serif KR', serif;
+$sans-serif  : 'Nanum Gothic', sans-serif;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
@@ -29,8 +34,8 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$global-font-family : $serif !default;
+$header-font-family : $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -150,11 +155,13 @@ $max-width: $x-large !default;
 /*
    Grid
    ========================================================================== */
-
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
-
+// 창 너비 변경
+$right-sidebar-width-narrow: 150px !default;
+$right-sidebar-width: 200px !default;
+$right-sidebar-width-wide: 250px !default;
+// $right-sidebar-width-narrow: 200px !default;
+// $right-sidebar-width: 300px !default;
+// $right-sidebar-width-wide: 400px !default;
 /*
    Other
    ========================================================================== */
