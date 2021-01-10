@@ -11,6 +11,9 @@ tags:
 # share: true 
 comments: true 
 read_time: false
+toc: true
+toc_label: 'Contents'
+toc_sticky: true
 ---
 
 ※ 본 게시글은 minimal-mistakes-jekyll 테마를 적용한 후 진행하였습니다.

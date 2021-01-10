@@ -12,9 +12,9 @@ tags:
 # share: true 
 comments: true 
 # last_modified_at: 2020-09-05T20:55:00-09:00
-# toc: true
-# toc_label: 'Contents'
-# toc_sticky: true
+toc: true
+toc_label: 'Contents'
+toc_sticky: true
 read_time: false
 ---
 
