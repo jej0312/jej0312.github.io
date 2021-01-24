@@ -40,19 +40,19 @@ read_time: false
 
 ### 런타임 유형 변경
 
-![colab](/img/colab_0.jpg)
+![colab](/img/colab_0.JPG)
 
 상단의 탭 중 '런타임'을 선택하면 런타임 유형을 변경할 수 있다.
 
-![colab](/img/colab_1.jpg)
+![colab](/img/colab_1.JPG)
 
 여기서 GPU를 사용하고자 하면 하드웨어 가속기를 변경하고, 이후 다시 output을 보고 싶다면 '셀 출력 생략'의 체크를 취소하면 된다.
 
-![colab](/img/colab_2.jpg)
+![colab](/img/colab_2.JPG)
 
 Pro 버전의 경우, 고용량 RAM을 사용하고자 하면 '런타임 구성'에서 '고용량 RAM'을 선택할 수 있다.
 
-![colab](/img/colab_3.jpg)
+![colab](/img/colab_3.JPG)
 
 사용하고 있는 코랩의 사양을 확인하고 싶으면, 아래 코드를 입력하고 실행하면 된다.
 
@@ -82,7 +82,7 @@ Pro 버전의 경우, 고용량 RAM을 사용하고자 하면 '런타임 구성'
 
     협업하지 않고 개인이 혼자 사용할 때는 이 방법을 추천한다. 클릭 한 번으로 인증없이 바로 사용할 수 있고, 따로 연동하지 않아도 새로 실행할 때 연동되기도 하기 때문이다.
 
-    ![colab](/img/colab_4.jpg)
+    ![colab](/img/colab_4.JPG)
 
     연결 버튼을 클릭하면 '연결 중'이 뜬 후 자동으로 연결이 된다.
 
@@ -95,7 +95,7 @@ Pro 버전의 경우, 고용량 RAM을 사용하고자 하면 '런타임 구성'
     drive.mount('/content/gdrive')
     ```
 
-    ![colab](/img/colab_5.jpg)
+    ![colab](/img/colab_5.JPG)
     '/content/'뒤의 'gdrive' 자리에는 본인이 사용하려는 폴더명으로 지정해줄 수 있다.
 
     예를 들어, 구글 드라이브 'data.csv'라는 파일을 불러오고 싶을 때 구글드라이브 명을 'gdrive'로 설정할 경우 파일 경로는 '/content/gdrive/data.csv'가 되는 것이고 구글드라이브 명을 'MyDrive'로 설정할 경우 파일 경로는 'content/MyDrive/data.csv' 이런 식으로 되는 것이다. 따라서 본인이 사용하기 편한 폴더명을 지정하면 된다.
