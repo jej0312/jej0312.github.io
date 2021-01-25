@@ -120,5 +120,56 @@ import matplotlib.pyplot as plt
 plt.rc('font', family='NanumBarunGothic')
 ```
 
-참고자료:  
-- [https://zzsza.github.io/data/2018/08/30/google-colab/](https://zzsza.github.io/data/2018/08/30/google-colab/)
+
+## 사용자 파일(.py) 불러오기
+
+사용자가 제작한 py 파일을 코랩에서 사용해야할 때가 있다. 그럴 때는 두 가지 방법을 사용하여 사용자 파일을 불러올 수 있다.
+
+1. py 파일을 로컬 환경에 저장한 후 불러온다.
+
+    ```python
+    from google.colab import files
+    src = list(files.upload().values())[0]
+    open('사용자_파일.py','wb').write(src)
+    ```
+
+    위 코드를 입력하면 다음과 같이 파일을 업로드할 수 있다.
+
+    ![colab](/img/colab_8.png)
+
+    업로드를 한 후 다음 코드를 실행하여 사용자 파일을 임포트한다.
+
+    ```python
+    import 사용자_파일
+    ```
+
+    (+ 왼쪽 판넬에서 업로드를 선택한 후 직접적으로 업로드하는 방식도 존재한다.
+
+    ![colab](/img/colab_10.png)
+
+    Files 밑의 첫번째 아이콘을 클릭한다.)
+
+2. 드라이브 환경에 저장한 후 불러온다.
+
+    이 방법은 드라이브 환경에 있는 파일을 코랩 상으로 복사해와서 사용하는 방식이다.
+
+    코랩에서 마운팅을 진행한 후, `!pwd`를 입력하면 현재 위치를 확인할 수 있다. 
+
+    ![colab](/img/colab_6.png)
+
+    'content'가 뜬다면 다음 코드를 통해 해당 파일을 불러올 수 있다.
+
+    ```python
+    ##### !cp [복사할 파일 경로] [이동할 파일 경로]
+    !cp drive/마운팅한 구글드라이브/사용자 파일이 위치한 경로/사용자_파일.py .
+    ```
+
+    이 때 파일 경로에 특수문자(띄어쓰기, 괄호 등)이 포함된다면 앞에 `\`를 입력해준다. (예를 들자면 '사용자 폴더/사용자_파일.py' 대신 '사용자\ 폴더/사용자_파일.py' 이런 식)
+
+    코드를 실행한 후 바로 해당 파일을 임포트하면 좌측 판넬에 py 파일이 생기면서 사용할 수 있게 된다.
+
+    ![colab](/img/colab_7.png)
+
+- 참고자료:
+    - [https://zzsza.github.io/data/2018/08/30/google-colab/](https://zzsza.github.io/data/2018/08/30/google-colab/)
+    - [https://stackoverflow.com/questions/48905127/importing-py-files-in-google-colab](https://stackoverflow.com/questions/48905127/importing-py-files-in-google-colab)
