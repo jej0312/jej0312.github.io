@@ -616,4 +616,4 @@ print(time.perf_counter() - startTime)
   - [https://yganalyst.github.io/data_handling/Pd_12/](https://yganalyst.github.io/data_handling/Pd_12/)
   - [https://dailyheumsi.tistory.com/84](https://dailyheumsi.tistory.com/84)
   - [https://emilkwak.github.io/pandas-dataframe-concat-efficiently](https://emilkwak.github.io/pandas-dataframe-concat-efficiently)
-  - https://dowtech.tistory.com/39
+  - [https://dowtech.tistory.com/39](https://dowtech.tistory.com/39)
