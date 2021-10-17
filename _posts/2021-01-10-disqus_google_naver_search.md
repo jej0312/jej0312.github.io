@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: "Disqus 댓글 등록 및 검색 기능"
+title: "[Blog] Disqus 댓글 등록 및 검색 기능"
 categories:
  - blog
 tags: 

@@ -15,3 +15,4 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem 'jekyll-include-cache' # 추가
 end
+gem "webrick", "~> 1.7"

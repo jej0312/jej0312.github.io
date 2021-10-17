@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: "형태소 분석기 설치"
+title: "[NLP] 형태소 분석기 설치"
 categories:
  - textmining
 tags: 

@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: "연희-연남-신촌동 카페 추천기"
+title: "[Project] 연희-연남-신촌동 카페 추천기"
 categories:
  - textmining
 excerpt: "카카오플레이스 평점 및 리뷰 기준으로"

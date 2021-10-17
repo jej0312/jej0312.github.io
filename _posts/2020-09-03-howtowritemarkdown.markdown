@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: "Markdown 작성법"
+title: "[Blog] Markdown 작성법"
 categories:
  - howto
 excerpt: "마크다운 작성법 및 헤더 설정방법"

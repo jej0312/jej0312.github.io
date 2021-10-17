@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: "Non-parametric Test (비모수검정)"
+title: "[Statistics] Non-parametric Test (비모수검정)"
 categories:
  - statistical analysis
 tags: 

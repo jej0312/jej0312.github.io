@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: "lambda, map, filter, zip"
+title: "[Programming] lambda, map, filter, zip"
 categories:
  - programming
 tags: 
