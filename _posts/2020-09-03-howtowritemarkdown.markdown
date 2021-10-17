@@ -2,7 +2,7 @@
 # layout: post
 title: "[Blog] Markdown 작성법"
 categories:
- - howto
+ - blog
 excerpt: "마크다운 작성법 및 헤더 설정방법"
 tags: 
  - howto
