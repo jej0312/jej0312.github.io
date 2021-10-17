@@ -31,7 +31,7 @@ toc: false
   - 연세대학교 사회과학대학 **연극**동아리 [토굴](https://www.facebook.com/YonseiTogul) (2017.06 ~ 2017.12)  
   - 대학생 **비영리민간단체** [십시일밥](https://jieum.org/about/) (2017.03 ~ 2017.12)  
     - 연세대학교 국제캠퍼스 임원진 (2017.06 ~ 2017.12)  
-  - 청년 **벽화 봉사** 비영리 단체 벽의민족 (2018.06 ~ 2018.09) 
+  - 청년 **벽화 봉사** 비영리 단체 [벽의민족](https://www.facebook.com/cjdsus/) (2018.06 ~ 2018.09) 
   - 연세대학교 **통계 및 데이터사이언스**학회 [ESC](https://github.com/YonseiESC) (2018.03 ~ 2018.12)  
   - 연세대학교 중앙**사진**동아리 [연영회](https://www.facebook.com/yonyoungpage/) (2020.06 ~ 2020.12)  
 - **Internship**:  
