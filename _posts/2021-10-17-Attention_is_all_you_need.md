@@ -6,6 +6,7 @@ categories:
 tags: 
  - NLP
  - transformer
+ - attention
  - paper review
 # share: true 
 comments: true 
