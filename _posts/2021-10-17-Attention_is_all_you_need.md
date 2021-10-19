@@ -2,7 +2,7 @@
 # layout: post
 title: "[논문리뷰] Attention Is All You Need"
 categories:
- - textmining
+ - NLP
 tags: 
  - NLP
  - transformer

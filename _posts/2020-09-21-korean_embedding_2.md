@@ -2,7 +2,7 @@
 # layout: post
 title: "[NLP] 벡터가 어떻게 의미를 가지게 되는가"
 categories:
- - textmining
+ - NLP
 excerpt: "한국어 임베딩 2장"
 tags: 
  - textmining

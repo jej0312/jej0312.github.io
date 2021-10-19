@@ -2,7 +2,7 @@
 # layout: post
 title: "[NLP] 형태소 분석기 설치"
 categories:
- - textmining
+ - NLP
 tags: 
  - textmining
  - POStagger
