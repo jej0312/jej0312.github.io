@@ -20,6 +20,23 @@ read_time: false
 
 
 
+<style>
+  table, tr, td {
+    /* border-collapse: collapse; */
+    /* border: solid 1px black; */
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+</style>
+
+<style type="text/css">
+    img {
+        width: 500px;
+        text-align: center;
+    }
+</style>
 
 # 1. 데이터 수집하기   
 
@@ -137,7 +154,7 @@ df_raw.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -240,7 +257,7 @@ df_raw[df_raw.address.isnull()]
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -316,7 +333,7 @@ df_raw[df_raw.address.isnull()]
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -373,7 +390,7 @@ df_raw[df_raw.address.isnull()]
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -431,7 +448,7 @@ df_raw[df_raw.address.isnull()]
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -495,7 +512,7 @@ df_raw.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -579,7 +596,7 @@ df_raw.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -692,7 +709,7 @@ df_raw.sort_values('score', ascending=False)
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -876,7 +893,7 @@ df_filter1.sort_values('score', ascending=False).head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1010,7 +1027,7 @@ df_filter2.sort_values('score', ascending=False).reset_index(drop=True).head(10)
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1138,7 +1155,7 @@ df_raw.sort_values(['score_cnt', 'review_cnt'], ascending=False).reset_index(dro
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1449,7 +1466,7 @@ df_raw.sort_values('popularity', ascending=False).reset_index(drop=True).head(10
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1638,7 +1655,7 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1838,7 +1855,7 @@ df[df["score"] == 0]
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -2012,7 +2029,7 @@ df_yh.head()
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -2151,7 +2168,7 @@ df_filter.sort_values(['score', 'popularity'], ascending=False).head(10)
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -2323,7 +2340,7 @@ df_high
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -2566,7 +2583,7 @@ for url in tqdm_notebook(urls):
 
 ```python
 df_yh = pd.DataFrame(dt_review)
-df_yh.head(10)
+df_yh.head(5)
 ```
 
 
@@ -2586,75 +2603,45 @@ df_yh.head(10)
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table class="dataframe" style="width: 100%">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>rating</th>
-      <th>review</th>
+      <th style="width: 5%;"></th>
+      <th style="width: 15%;">name</th>
+      <th style="width: 10%;">rating</th>
+      <th style="width: 80%;">review</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>너무 좋아요! 재방문 몇 번이고 하고 싶은 곳더보기</td>
+      <th>쿳사</th>
+      <th>5점</th>
+      <th>너무 좋아요! 재방문 몇 번이고 하고 싶은 곳더보기</th>
     </tr>
     <tr>
       <th>1</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>맛있어요, 가게는 작지만 식물이 가득하고 햇살도 잘 들어서 오랫동안 앉아있다 오고싶...</td>
+      <th>쿳사</th>
+      <th>5점</th>
+      <th>맛있어요, 가게는 작지만 식물이 가득하고 햇살도 잘 들어서 오랫동안 앉아있다 오고싶...</th>
     </tr>
     <tr>
       <th>2</th>
-      <td>쿳사</td>
-      <td>4점</td>
-      <td>사장님이 굉장히 착하시고 요즘엔 마스크도 다 쓰고 영업 하신다. 서비스는 대만족. ...</td>
+      <th>쿳사</th>
+      <th>4점</th>
+      <th>사장님이 굉장히 착하시고 요즘엔 마스크도 다 쓰고 영업 하신다. 서비스는 대만족. ...</th>
     </tr>
     <tr>
       <th>3</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>후 나만 알고싶지만 이걸 읽고있다면 어차피 여길 오겠죠 ㅋㅋㅋ 사진을 보세요.. 더보기</td>
+      <th>쿳사</th>
+      <th>5점</th>
+      <th>후 나만 알고싶지만 이걸 읽고있다면 어차피 여길 오겠죠 ㅋㅋㅋ 사진을 보세요.. 더보기</th>
     </tr>
     <tr>
       <th>4</th>
-      <td>쿳사</td>
-      <td>4점</td>
-      <td>에그 베네딕트와 뇨끼, 라떼. 매우 만족스러운 브런치였다. 근데 가게 분들 왜 마스...</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>맛있고 멋있는 곳 !더보기</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>친절하고 맛있고 주차되고더보기</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>콰트로치즈뇨끼와 하우스와인이 정말 맛있었고 티라미수, 커피도 다 맛있었다. 매장 예...</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>밑의 분이 추천해 주셔서 잘 먹었습니다 뇨끼 맛있네요!더보기</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>쿳사</td>
-      <td>5점</td>
-      <td>뇨끼뇨끼!!! 여러분 뇨끼를 드십시오 1인 1뇨끼도 아쉽습니다 식전 메뉴와 파스타는...</td>
+      <th>쿳사</th>
+      <th>4점</th>
+      <th>에그 베네딕트와 뇨끼, 라떼. 매우 만족스러운 브런치였다. 근데 가게 분들 왜 마스...</th>
     </tr>
   </tbody>
 </table>
