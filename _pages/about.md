@@ -9,12 +9,13 @@ toc: false
 
 - **Name**: 전은지  
 - **E-mail**: jej_0312_@naver.com  
-- [Github](https://github.com/jej0312)
-- **Blog**: [Github](https://jej0312.github.io), [Naver](https://blog.naver.com/dhdlddmswl), [Notion](https://www.notion.so/Hello-This-is-Eunji-89bff151fc254323b06aa3c71d2e2d8b)
+- **Github Repositories**: [Github](https://github.com/jej0312)
+
+- **Blog**: [Github](https://jej0312.github.io), [Naver](https://blog.naver.com/dhdlddmswl), [Notion](https://chocolate-zircon-a19.notion.site/Hello-This-is-Eunji-89bff151fc254323b06aa3c71d2e2d8b)
 
 - **Language**: R, Python, SQL, Tableau, MongoDB, QGIS  
-- **Certificate**:  
-  - 컴퓨터활용능력 1급 (2019/09/13; 대한상공회의소)  
+- **Certificates**:  
+  - 컴퓨터활용능력 1급 (2019/09/13)  
   - SQLD (2020/06/30)  
   - ADSP (2020/07/19)  
   - 빅데이터분석기사 (2021/07/16)  
@@ -24,7 +25,7 @@ toc: false
 - **School**:
   - 연세대학교 문과대학 **문헌정보학과, 응용통계학과** 학부 졸업 (2021.08 우등 졸업)
   - 연세대학교 **산업공학과** 일반대학원 석사과정 재학 중 (2023.02 졸업 예정)  
-- **Club & Activity**:
+- **Clubs & Activities**:
   - 연세대학교 국제처산하 **교환학생**교류동아리 [멘토스클럽](https://www.facebook.com/MENTORSCLUB/) (2017.03 ~ 2018.12)  
     - 32, 33기: DPC (2017.06 ~ 2018.06)  
     - 34기: 부회장 (2018.06 ~ 2018.02)  
@@ -37,7 +38,7 @@ toc: false
 - **Internship**:  
   - [과학기술일자리진흥원](https://www.compa.re.kr/cmm/main/mainPage.do;jsessionid=8064AD278D3B651173B517C9C23FE348) (2020.09 ~ 2021.02)  
 
-## Project  
+## Projects   
 - 북경 미세먼지 발생 원인 분석  
   - [북경 대기질 데이터셋](https://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data)을 활용하여 미세먼지에 영향을 주는 요인 분석   
   - `R`, `ML`, `ML`  

@@ -205,4 +205,4 @@ model outperforms even all previously reported ensembles.
 - The code we used to train and evaluate our models is available at [https://github.com/tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor).
 
 ---
-제 개인 [Notion](https://www.notion.so/Transformer-Attention-is-all-you-need-e6997a7aaf204385aa0c88d7489b42df)에서도 확인 가능합니다.
+제 개인 [Notion](https://chocolate-zircon-a19.notion.site/Transformer-Attention-is-all-you-need-e6997a7aaf204385aa0c88d7489b42df)에서도 확인 가능합니다.
