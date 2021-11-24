@@ -2,7 +2,7 @@
 # layout: post
 title: "[논문리뷰] Visualizing and Understanding Convolutional Networks"
 categories:
- - DL
+ - ML/DL
 tags: 
  - DL
  - CNN
