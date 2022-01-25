@@ -107,7 +107,8 @@ The task of **entity alignment** between knowledge graphs aims to find entities 
 - We use an embedding-based model that assigns a continuous representation for each element of a triple in the forms of *⟨**h, r, t**⟩* and *⟨**h, r, a**⟩*, where the bold-face letters denote the vector representations of the corresponding element.
 
 ## 3.1. TransE
-
+- $||h+r-t|| \approx0$  
+- $L=\sum_{(h,r,t) \in S}\sum_{(h',r',t' \in S')[r+d(h+r,t)-d(h'+r'-t')]}$  
 - ***(Advantages)*** capture the semantic similarity between entities in the embedding space
 - ***(Limitations)*** the entity embeddings computed on different KGs may fall in different spaces, where similarity cannot be computed directly.
     - Transition matrix to map the embedding spaces of different KGs into the same space (in existing studies) requires manually collecting a seed set of aligned entities from the different KGs to create the transition matrix, which do not scale and are vulnerable to the quality of the selected seed aligned entities.
@@ -228,8 +229,9 @@ is trained based on the plausibility score (h + r − t).
 **structure embedding** with **attribute character embedding** for entity alignment between knowledge graphs. Our proposed model uses the attribute character embedding to shift the entity embeddings from different KGs to the same vector space. Moreover, we adopt the **transitivity rule** to enrich the number of attributes of an entity that helps identify the similarity between entities based on the attribute embeddings. Our proposed model outperforms the baselines consistently by over 50% in terms of hits@1 on alignment of entities between three pairs of real-world knowledge graphs.
 
 -----
+# Framework 요약
 
-### Framework 요약
+![img](/img/ea-1.jpg)
 
 1. 두 지식 그래프에서 attribute 링크(predicate)에 대한 정보를 통일 (predicte alignment)
     - transivity rule (링크의 연속)을 사용하면 향후 similarity 정보를 더 잘 파악할 수 있음
