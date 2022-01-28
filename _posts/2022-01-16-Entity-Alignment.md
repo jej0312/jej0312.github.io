@@ -2,7 +2,7 @@
 # layout: post
 title: "[논문리뷰] Entity Alignment between Knowledge Graphs Using Attribute Embeddings"
 categories:
- - ML/DL
+ - KG
 tags: 
  - Knowledge Graph
  - Entity Alignment
