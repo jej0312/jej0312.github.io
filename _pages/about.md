@@ -59,7 +59,7 @@ toc: false
   - 코로나 발발 이후 비트코인의 가격 변동성을 결정하는 심리적, 수요공급, 거시경제, 정치적 요인의 영향 분석
   - `Python`, `ML`, `NLP`  
   - [Github](https://github.com/jej0312/bitcoin_volatility)
-- 2021 빅콘테스트 이노베이션분야 중소기업지원 참가
+- 2021 빅콘테스트 이노베이션분야 중소기업지원 참가 (**우수상** 수상) 
   - 중소·중견기업의 교육투자 포트폴리오를 활용한 차년도 수익 평가 모델 제시  
   - `Python`, `Logistic Regression`, `Management`
   - [Sources](https://www.notion.so/110d898a6276404086d82a4089fa67e6), [Github](https://github.com/patent-analysis-compa/KSIC_IPC)
@@ -79,7 +79,7 @@ toc: false
 - NTIS 데이터를 활용한 미래 유망기술 분류 모델
   - 국가과제데이터를 활용하여 누락된 미래유망기술 분류 모델 구축  
   - `Python`, `SQL`, `NLP`, `ML`, `DL`
-  - [Sources](https://www.notion.so/R-D-53b947208cc348f880158ff039169383)
+  - [Sources](https://www.notion.so/R-D-53b947208cc348f880158ff039169383), [Journal](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002798139), [Conference](https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00000239)
 
 ## Courses
   - 응용통계학  
