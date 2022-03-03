@@ -79,7 +79,7 @@ toc: false
 - NTIS 데이터를 활용한 미래 유망기술 분류 모델
   - 국가과제데이터를 활용하여 누락된 미래유망기술 분류 모델 구축  
   - `Python`, `SQL`, `NLP`, `ML`, `DL`
-  - [Sources](https://www.notion.so/R-D-53b947208cc348f880158ff039169383), [Journal](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002798139), [Conference](https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00000239)
+  - [Sources](https://www.notion.so/R-D-53b947208cc348f880158ff039169383), [Journal](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002798139), [Conference](https://cms.kookmin.ac.kr/cms/etcResourceDown.do?site=$cms$NYSwzkA&key=$cms$NISRGVwJgRgMQAoCUDyBhAdABwCYDMg)
 
 ## Courses
   - 응용통계학  
